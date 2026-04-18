@@ -1,0 +1,31 @@
+.btn{
+  width: 100px;
+  border: none;
+  border-radius: 15px;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif
+  
+}
+.btn:hover{
+  background-color: aqua;
+}
+
+.primary{
+background-color: green;
+}
+.primary:hover{
+  background-color: rgb(1, 88, 1);
+}
+.error{
+background-color: red;
+}
+.error:hover{
+  background-color: rgb(97, 2, 2);
+}
+.info{
+background-color: blue;
+}
+
+.info:hover{
+  background-color: rgb(0, 0, 102);
+}
