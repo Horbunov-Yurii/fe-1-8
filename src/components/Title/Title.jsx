@@ -7,7 +7,7 @@ console.log(span.Heading);
 
 function Title() {
     return (
-        <span.Heading>hello world</span.Heading>
+        <span.Heading>hefllo world</span.Heading>
     )
 }
 
