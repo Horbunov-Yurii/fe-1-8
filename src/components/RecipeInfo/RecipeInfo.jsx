@@ -1,4 +1,6 @@
-function RecipeInfo({text, icon}) {
+function RecipeInfo({icon, text}) {
+
+   
     return (
         <p>{icon} : {text}</p>
     )

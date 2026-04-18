@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <Recipe recipies={recipies}/>
+    <Recipe recipe={recipies}/>
     </>
   )
 }

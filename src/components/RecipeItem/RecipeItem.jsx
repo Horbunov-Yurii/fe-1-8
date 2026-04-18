@@ -4,7 +4,8 @@ import { MdOutlineLunchDining, MdDriveFileRenameOutline } from "react-icons/md";
 import { GiNetworkBars } from "react-icons/gi";
 import RecipeInfo from "../RecipeInfo/RecipeInfo";
 
-function RecipeItem({name, time, servings, calories, difficulty, image}) {
+function RecipeItem({name, time, servings, calories, difficulty,image}) {
+
     return (
         <li key={name}>
                 <RecipeInfo text={name} icon={<MdDriveFileRenameOutline/>}/>

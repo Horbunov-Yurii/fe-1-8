@@ -1,10 +1,12 @@
 import RecipeItem from "../RecipeItem/RecipeItem";
 
-function Recipe({recipies}) {
+function Recipe({recipe}) {
+
+  
     return (
-        <ul>{recipies.map((recipe)=>{
+        <ul>{recipe.map((item)=>{
             return(
-              <RecipeItem key={recipe.name} {...recipe}/>
+              <RecipeItem key={item.name} {...item}/>
             )
           })}</ul>
     )
