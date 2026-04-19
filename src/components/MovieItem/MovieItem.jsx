@@ -21,3 +21,6 @@ function MovieItem({id, title, year, genre, rating, durationMinutes, isClassic})
 }
 
 export default MovieItem
+
+
+// asdasdasdasdsadsdasdasdasdasda
