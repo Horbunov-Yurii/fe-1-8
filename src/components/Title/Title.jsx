@@ -1,13 +1,13 @@
 import span from "./TitleStyle"
-console.log(span.Caption);
-console.log(span.Heading);
+// console.log(span.Caption);
+// console.log(span.Heading);
 
 
 
 
-function Title() {
+function Title({text}) {
     return (
-        <span.Heading>hefllo world</span.Heading>
+        <span.Heading>{text}</span.Heading>
     )
 }
 
